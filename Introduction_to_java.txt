@@ -1,0 +1,71 @@
+
+								how java code ececutes
+----------------------------------------------------------------------------------------------------------------
+1) .java file => Human readable 
+
+			=> compiler (Entier file) =>
+
+2) .class file => byte code 
+				- this code will not directl run on system 
+				- we need jvm to run this 
+				- reasone why java is platform independent language
+			
+			=>  interpreter (Line by line) => 
+
+3) Macine code => 0 and 1 
+
+
+	Java source code => JDK => Bytecode => JVM => JRE
+----------------------------------------------------------------------------------------------------------------
+
+platform independent =>
+	- It means that byte code can run on any operating system 
+	- we need to convert source code to byte code so computer can uderstand it 
+	- compiler helpes in doooing this by turning it into executable code
+	- this executable code is set of instruction for the compiler
+	- after compiling c/c++ file we get .exe file whic is platform dependent
+	- in java we get bytecode Jvm convert this to machine code
+	- java is platform independent but jvm is platforn dependent
+	
+----------------------------------------------------------------------------------------------------------------
+
+ JDK = JRE + devlopement tools
+		JRE = JVM + Liberay classes 
+				JVM => java vertual machine
+					JIT => just in time	
+					
+----------------------------------------------------------------------------------------------------------------
+1) JDK => 
+	- provide enviroment to devlope and run the java program
+	- it is package that includes
+		1. devlopement tools - to provide an enviorment to devlope your program
+		2. JRE - to execute youre program
+		3. a compiler - javac
+		4. archiver - jar
+		5. docs generator - javadoc
+		6. interpreter / Loader
+		
+
+2) JRE => 
+	- It is an intallation package that provifrs enviorment to only run the program
+	- It consist of :
+		1. Devlopement technologies
+		2. User interface toolkits
+		3. Integration liberies
+		4. base libraries
+		5. JVM
+	- After we get .class file, next things happens at runtime :
+		1. Class loadser loads all classes needed to execute program
+		2. JVm sends code to byte code verifir yo check the format of code
+		
+3) JVM =>
+	- Line by line execution
+	- when one methos id called many times, it will interpreat again and again 
+	
+	
+4) JIT => 
+	- those methode that are repeated, JIT provide direct machine code so re-interpretation is not requred
+	- makes ececution faster
+	- eg. Garbage collector
+	
+----------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,81 @@
+					
+						Types Of Languages & Memory Management
+----------------------------------------------------------------------------------------------------------------
+
+			Types of Languages
+					1.	Procedural
+					2.	Functional
+					3.	Object Oriented
+					
+----------------------------------------------------------------------------------------------------------------
+
+1) Procdural =>
+		- Specifies a seris of well-structured steps and procedures to compose a program
+		- Contains a systematic order of statements, functions and commands to complete a task
+				
+		
+2) Functional =>
+		- Writing a program in pure function i.e. never modify variables, but only create new ones as an output
+		- Used in situation where we have to perform lots of different operations on the same set of data , like ML
+		- First class Funtions?	 
+				
+
+3) Object Oriented =>
+		- Revolves around objects 
+		- code + data = object
+		- Devloped to make it easier to devlope, debug, reuse, and maintain software.
+			
+				
+----------------------------------------------------------------------------------------------------------------
+
+							Static Languages vs Daynamic Languages
+				
+ Static =>					
+	- perform type checking at compile time			
+	- Error will show at compile time
+	- Declair Datatype before you use it (int a= 10 ,  String str = "Akash")
+	- More controll
+	
+	
+ Dynamic =>
+	- Perform type checking at runtime
+	- Error might not show till program is run
+	- No need to declare datatype of variables (a=10 , str = "Akash" )
+	- Save time at writing code but might give error at runtime
+	
+	
+-------------------------------------------------------------------------------------------------------------
+
+Memory Management =>
+
+		a = 10;
+			hear,	a  => stack memory		=> a is variable
+					10 => heap memory		=> 10 is object
+			and a is pointing toword 10
+
+		=> more than one referance variables can point to same object 
+		=> if any one of this referance variable change the object then original object is going to change
+		=> and the object change for all the variables 
+		
+		e.g. 
+			a = [1,3,5,9]
+			b = a
+			a[0] = 99
+			
+			output b[0] = 99 
+			
+			becouse b is also pointing to same object as a is pointing
+			
+---------------------------------------------------------------------------------------------------------------
+
+ Garbage Collection	=>
+		if thare is object with no referance variable then this object removed from memory by Garbage collection
+		
+		e.g.
+			a = 10
+			a = 37
+		
+		now no variable pointing object 10 then this will removed by garbage collector
+			
+			
+		

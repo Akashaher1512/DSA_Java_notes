@@ -1,0 +1,61 @@
+											Git And GitHub 
+-------------------------------------------------------------------------------------------------------------
+
+1) Git
+
+	1.	ls									=> list all the files present in that folder
+	2.	mkdir								=> make new directory (Folder)
+	3.	cd project							=> changing Directory
+	4.  git init							=> initialize local repo
+	5.  la .a 								=> show hidden files ( started with [ . ])
+	6.  touch names.txt						=> make new file
+	6.  git satus 							=> show status of files
+	8.	git add .							=> put all files to staging area
+	9. 	git commit -m "message"				=> add files to repository which are present in staging area
+	10. vi names.txt						=> edit files in vim 
+	11. cat names.txt						=> read data present inside file
+	12. git restore --staged names.txt		=> remove file from staging area
+	13.	git log 							=> show all commits done with timestamp and changes done
+	14.	git -rf names.txt					=> delete the file
+		14.1. git add . 							=> add to staging
+		14.2. git commit -m "names.txt deleted" 	=> delete names.txt
+	15. git reset hashcode_value			=> Each commit have hash_id this will back to that position 
+												by this command
+	16.	git stash							=> Add files in bean 
+	17.	git stash pop						=> file come back to staging area 					
+	18.	git stash clear 					=> delete changes in stash area
+
+-------------------------------------------------------------------------------------------------------------
+
+2) GitHub
+
+	1.	git remote add origin Github_Repo_url	=> add repository to local porject
+	2.	git remote -v							=> show all linkes attach with our repository
+	3.	git push origin master					=> push files to master branch
+	4.	git branch feature						=> create new branch feature
+	5.	git checkout feature					=> all new commits add on feature branch now
+	6.	git merge feature 						=> add feature branch to main branch
+	
+	7.	
+	8.
+	9.
+	10.
+	11.
+
+-------------------------------------------------------------------------------------------------------------
+
+How to work on existing project
+
+	1.	fork							=> create copy of proejct to our own account 
+	2.	git clone url					=> download folder to our pc
+	3.	git remote add upstream url		=> add url that where we fetch that project
+	
+***	4.	one branch can only open one pull request so create new branch for each feature 
+	
+	5.	push origin branchName -f		=> forcefully push changes
+	6.	git fetch --all --prune			=> fetch the all changes that upstrean project has done 
+	7.	git pull upstream main			=> done same as above command
+**	8.  Merge conflict 					=> occuers when two or more pepoles changes the same code lines 
+											then github get confuse wich changes should pick
+											
+	To solve this we oveeride the changes and then commit it

@@ -1,0 +1,13 @@
+Use LeetCoad Effectively
+
+	Do easy and medium quetions for evry perticular task
+	if we stuck at perticular prolem 
+		-	dont spend more than 30-40 minits on any problem
+		-	go to discuse section go throuh it and take hints and try to solve problem 
+		-	even after not able to solve then look at solution.
+		-	or google the quetion.
+		-	if we want to check we are perfect in the solution or not for this simpley
+			bookmark problem and come after 2 weaks on same problem and try to solve it
+			
+		-	try the bruteforce solution first and then try to optimise the problem 	
+		- 	find the wich patern is use for wich problem and remember the pattern 
